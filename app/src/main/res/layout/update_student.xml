@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eee9e9"
+    >
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:background="#FFFFFF"
+        android:text="STUDENT UPDATE"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:id="@+id/editTextStu_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:paddingBottom="15dp"
+        android:hint="Name"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextStu_f_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:paddingBottom="15dp"
+        android:hint="F.Name"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextStu_qualification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:paddingBottom="15dp"
+        android:hint="QUALIFICATION"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextStu_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:paddingBottom="15dp"
+        android:hint="EMAIL"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextStu_skills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:paddingBottom="15dp"
+        android:hint="SKILLS"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="UPDATE"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:textAllCaps="false"/>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

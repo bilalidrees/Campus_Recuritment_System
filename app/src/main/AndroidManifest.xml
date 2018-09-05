@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bilalidrees.crs">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/campus"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Student_login" />
+        <activity android:name=".Admin_login" />
+        <activity android:name=".Company_login" />
+        <activity android:name=".Signup" />
+        <activity android:name=".welcome" />
+        <activity android:name=".profile_student" />
+        <activity android:name=".admin_profile" />
+        <activity
+            android:name=".Company_profile"
+            android:label="@string/title_activity_company_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".student_selection_view" />
+        <activity android:name=".Company" />
+        <activity android:name=".Admin_selection_view" />
+        <activity android:name=".s_list"></activity>
+    </application>
+
+</manifest>

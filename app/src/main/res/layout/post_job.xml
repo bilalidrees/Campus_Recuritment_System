@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eee9e9"
+    >
+
+
+
+    <EditText
+        android:id="@+id/Company_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Company_Name"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/job_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Job Title"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/required_qualification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Req.Qualification"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/required_skills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Req.Skills"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/com_expeireince"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Experience"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/com_salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Salary"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/com_Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Location"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="POST"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:textAllCaps="false"/>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

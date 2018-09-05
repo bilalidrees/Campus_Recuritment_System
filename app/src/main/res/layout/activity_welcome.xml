@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1e90ff"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/welocme" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:text="LOGIN AS:"
+            android:textColor="#000000"
+            android:textAlignment="center"
+
+            />
+
+
+
+
+        <Button
+            android:id="@+id/StudentLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Student"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:background="#b0e0e6"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/AdminLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Admin"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:background="#b0e0e6"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/CompanyLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Company"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:background="#b0e0e6"
+            android:textAllCaps="false"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
